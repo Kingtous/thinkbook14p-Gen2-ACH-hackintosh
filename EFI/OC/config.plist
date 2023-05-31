@@ -265,24 +265,6 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>VirtualSMC.kext</string>
-                    <key>Comment</key>
-                    <string>V1.3.1</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/VirtualSMC</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>NootedRed.kext</string>
                     <key>Comment</key>
                     <string>V1.0.0 | NootedRed.kext</string>
@@ -301,13 +283,31 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>AirportItlwm.kext</string>
+                    <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V2.1.0 | AirportItlwm.kext</string>
+                    <string>V1.3.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AirportItlwm</string>
+                    <string>Contents/MacOS/VirtualSMC</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>AMDRadeonX5000HWLibs.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0</string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AMDRadeonX5000HWLibs</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -326,6 +326,24 @@
                     <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AMDRadeonX6000Framebuffer</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>AirportItlwm.kext</string>
+                    <key>Comment</key>
+                    <string>V2.1.0 | AirportItlwm.kext</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -575,7 +593,7 @@
                     <key>Comment</key>
                     <string>V2.3.5 | VoodooPS2Controller.kext</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/VoodooPS2Controller</string>
                     <key>MaxKernel</key>
@@ -611,7 +629,7 @@
                     <key>Comment</key>
                     <string>V2.3.5 | VoodooPS2Trackpad.kext</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/VoodooPS2Trackpad</string>
                     <key>MaxKernel</key>
@@ -869,7 +887,7 @@
                     <key>MinKernel</key>
                     <string>21.0.0</string>
                     <key>Replace</key>
-                    <data>uggAAAAA</data>
+                    <data>uggAAACQ</data>
                     <key>ReplaceMask</key>
                     <data>////////</data>
                     <key>Skip</key>
@@ -885,7 +903,7 @@
                     <key>Count</key>
                     <integer>1</integer>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>Find</key>
                     <data>wegaAAA=</data>
                     <key>Identifier</key>
@@ -1671,7 +1689,7 @@
                 <key>ThirdPartyDrives</key>
                 <false/>
                 <key>XhciPortLimit</key>
-                <true/>
+                <false/>
             </dict>
             <key>Scheme</key>
             <dict>
