@@ -265,13 +265,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>NootedRed.kext</string>
+                    <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.0 | NootedRed.kext</string>
+                    <string>V1.3.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/NootedRed</string>
+                    <string>Contents/MacOS/VirtualSMC</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -283,13 +283,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>VirtualSMC.kext</string>
+                    <string>NootedRed.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.1</string>
+                    <string>V1.0.0 | NootedRed.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/VirtualSMC</string>
+                    <string>Contents/MacOS/NootedRed</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -326,24 +326,6 @@
                     <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AMDRadeonX6000Framebuffer</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>AirportItlwm.kext</string>
-                    <key>Comment</key>
-                    <string>V2.1.0 | AirportItlwm.kext</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -647,7 +629,7 @@
                     <key>Comment</key>
                     <string>V1.1</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/VoodooGPIO</string>
                     <key>MaxKernel</key>
@@ -665,7 +647,7 @@
                     <key>Comment</key>
                     <string>V1</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/VoodooI2CServices</string>
                     <key>MaxKernel</key>
@@ -683,7 +665,7 @@
                     <key>Comment</key>
                     <string>V1.1.4 | VoodooInput.kext</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/VoodooInput</string>
                     <key>MaxKernel</key>
@@ -701,7 +683,7 @@
                     <key>Comment</key>
                     <string>V2.8</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/VoodooI2C</string>
                     <key>MaxKernel</key>
@@ -719,7 +701,7 @@
                     <key>Comment</key>
                     <string>V1</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/VoodooI2CHID</string>
                     <key>MaxKernel</key>
@@ -755,7 +737,7 @@
                     <key>Comment</key>
                     <string>V2.2.0</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string></string>
                     <key>MaxKernel</key>
@@ -776,6 +758,42 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/IntelBTPatcher</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>AirportItlwm.kext</string>
+                    <key>Comment</key>
+                    <string>V2.2.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AirportItlwm</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>BlueToolFixup.kext</string>
+                    <key>Comment</key>
+                    <string>V2.6.6</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/BlueToolFixup</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
