@@ -50,6 +50,20 @@
 					IgAAeQA=
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_OSI to XOSI rename - requires SSDT-XOSI.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X09TSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WE9TSQ==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>SortedOrder</key>
@@ -59,6 +73,7 @@
 			<string>SSDT-USBX.aml</string>
 			<string>SSDT-PLUG-ALT.aml</string>
 			<string>SSDT-USB-Reset.aml</string>
+			<string>SSDT-XOSI.aml</string>
 		</array>
 	</dict>
 </dict>
