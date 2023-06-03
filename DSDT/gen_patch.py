@@ -1,4 +1,5 @@
 
+
 text = """SDAT,16
 SDA2,16
 SDA4,32
@@ -33,7 +34,7 @@ def process(name: str, byte_num: int):
     if byte_num == 16:
         name3 = name[1:]
         print(f"into device label H_EC code_regex {name},\\s+16 replace_matched begin {name3}0,8,{name3}1,8 end;")
-        print(f"into method label MHPF code_regex \\({name}, replaceall_matched begin (B1B2({name3}0,{name3}1), end;")
+        print(f"into method label MHPF code_regex {name}, replaceall_matched begin (B1B2({name3}0,{name3}1), end;")
 
     pass
 

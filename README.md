@@ -2,7 +2,7 @@
 
 PDF: [ThinkBook_14p_G2_ACH Reference](https://psref.lenovo.com/syspool/Sys/PDF/ThinkBook/ThinkBook_14p_G2_ACH/ThinkBook_14p_G2_ACH_Spec.pdf)
 
-This EFI aims to work with `macOS Montery` now. Stay tuned :)
+This EFI aims to work with `macOS Monterey` now. Stay tuned :)
 
 [![pCpqurR.png](https://s1.ax1x.com/2023/06/03/pCpqurR.png)](https://imgse.com/i/pCpqurR)
 
@@ -17,6 +17,7 @@ This EFI aims to work with `macOS Montery` now. Stay tuned :)
 |iCloud|Sync|YES|
 |Camera (HID)|FaceTime|YES|
 |Bluetooth|AX2000 WiFi6|YES|
+|Battery||NO(not showing the percentage, investigating)|
 
 
 ## Credits
