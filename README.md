@@ -17,7 +17,7 @@ This EFI aims to work with `macOS Monterey` now. Stay tuned :)
 |iCloud|Sync|YES|
 |Camera (HID)|FaceTime|YES|
 |Bluetooth|AX2000 WiFi6|YES|
-|Battery||NO(not showing the percentage, investigating)|
+|Battery||NO(not showing the percentage, investigating, https://github.com/1Revenger1/ECEnabler/issues/25)|
 
 
 ## Credits
