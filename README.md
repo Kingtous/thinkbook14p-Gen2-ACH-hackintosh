@@ -16,6 +16,7 @@ This EFI aims to work with `macOS Montery` now. Stay tuned :)
 |Network Card| AX200 WiFi6|YES|
 |iCloud|Sync|YES|
 |Camera (HID)|FaceTime|YES|
+|Bluetooth|AX2000 WiFi6|YES|
 
 
 ## Credits
