@@ -15,7 +15,7 @@ This EFI aims to work with `macOS Montery` now. Stay tuned :)
 |HDMI|Vega 8(integrated GPU)|YES|
 |Network Card| AX200 WiFi6|YES|
 |iCloud|Sync|YES|
-
+|Camera (HID)|FaceTime|YES|
 
 
 ## Credits
