@@ -1,3 +1,40 @@
+# 需要修改的Method
+# _SB.PCI0.LPC0.H_EC.BAT0._BIX
+# _SB.PCI0.LPC0.H_EC.BAT0._BST
+
+# SB_.PCI0.LPC0.H_EC
+
+# 16bits: <B1DC> <B1FV> <B1FC> <BCYC> <B1SN> <B1CR> <B1RC> <B1TE> <B1TF> <B1VT> <B1TP> <BFUD>  <B1DA>
+# 32bits: 
+# 128bits: 《BDN1》 <BVN1>
+
+# OperationRegion (XCF2, SystemMemory, 0xFE00D400, 0xFF)
+# Field (XCF2, ByteAcc, Lock, Preserve)
+# {
+# Offset(0x62),
+# BSN1, 8, // B1SN checked
+# BSN2, 8,
+# BDC1, 8, //B1DC checked
+# BDC2, 8,
+# BFV1, 8, // B1FV: GSBI
+# BFV2, 8,
+# BFC1, 8, // B1FC: GSBI
+# BFC2, 8,
+# Offset (0x6C), 
+# BCR1, 8, // B1CR: GSBI
+# BCR2, 8,
+# BRC1, 8, // B1RC: GSBI
+# BRC2, 8,
+# Offset(0x74),
+# BCY1, 8, // BCYC: GBID
+# BCY2, 8,
+# Offset(0xB0), 
+
+# // BDN1: Offset (0xB0) + 128
+# // BVN1: Offset (0xC0) + 128
+# }
+
+# method:
 
 
 text = """SDAT,16
@@ -43,3 +80,16 @@ for item in arrs:
     number = int(number)
     process(name, number)
     # print(name, number)
+
+
+# _BIX -> XBIX
+# 5F424958 -> 58424958
+
+# _BST -> XBST
+# 5F425354 -> 58425354
+
+# GSBI -> XSBI
+# 47534249 -> 58534249
+
+# GBID -> XBID
+# 47424944 -> 58424944
