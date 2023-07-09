@@ -2,9 +2,9 @@
 
 PDF: [ThinkBook_14p_G2_ACH Reference](https://psref.lenovo.com/syspool/Sys/PDF/ThinkBook/ThinkBook_14p_G2_ACH/ThinkBook_14p_G2_ACH_Spec.pdf)
 
-This EFI aims to work with `macOS Monterey` now. Stay tuned :)
+This EFI aims to work with `macOS Ventura` now. Stay tuned :)
 
-[![pCpqurR.png](https://s1.ax1x.com/2023/06/03/pCpqurR.png)](https://imgse.com/i/pCpqurR)
+[![pC2ty60.png](https://s1.ax1x.com/2023/07/09/pC2ty60.png)](https://imgse.com/i/pC2ty60)
 
 |Properties|Detail| Works? |
 |---|-----|--|
