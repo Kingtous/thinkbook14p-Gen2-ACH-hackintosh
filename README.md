@@ -17,7 +17,7 @@ This EFI aims to work with `macOS Ventura` now. Stay tuned :)
 |iCloud|Sync|YES|
 |Camera (HID)|FaceTime|YES|
 |Bluetooth|AX2000 WiFi6|YES|
-|Battery||YES|
+|Battery|![截屏2023-09-06 01 45 33](https://github.com/Kingtous/thinkbook14p-Gen2-ACH-hackintosh/assets/39793325/105d003c-ba13-4ee9-85b9-3988d7ffb01f)|YES|
 
 
 ## Credits
