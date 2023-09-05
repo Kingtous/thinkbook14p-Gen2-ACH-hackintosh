@@ -23,3 +23,10 @@ This EFI aims to work with `macOS Ventura` now. Stay tuned :)
 ## Credits
 
 - Apple for macOS
+
+
+## Question
+
+### Chrome is about to freeze the whole macOS when opening.
+
+A: This is an upstream issue of NootedRed, which is the AMD graphic driver which is responsible for accelerate video encoding/decoding. Please check [NootedRed Guide for configuring Chrome](https://chefkissinc.github.io/nred#chrome-chromium-based-browsers-and-apps-like-sublime-text-cause-graphical-artefacts-amongst-other-problems) to solve it.
