@@ -1,9 +1,5 @@
 # Hackintosh for ThinkBook 14p 2021 Gen2-ACH
 
-QQ Group:
-![image](https://github.com/Kingtous/thinkbook14p-Gen2-ACH-hackintosh/assets/39793325/bd834b10-c755-4745-83b3-feadd75e0051)
-
-
 PDF: [ThinkBook_14p_G2_ACH Reference](https://psref.lenovo.com/syspool/Sys/PDF/ThinkBook/ThinkBook_14p_G2_ACH/ThinkBook_14p_G2_ACH_Spec.pdf)
 
 This EFI aims to work with `macOS Ventura` now. Stay tuned :)
@@ -27,6 +23,10 @@ This EFI aims to work with `macOS Ventura` now. Stay tuned :)
 ## Credits
 
 - Apple for macOS
+
+QQ Group:
+
+<p><img src="https://github.com/Kingtous/thinkbook14p-Gen2-ACH-hackintosh/assets/39793325/bd834b10-c755-4745-83b3-feadd75e0051" width=300></img></p>
 
 
 ## Question
