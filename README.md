@@ -2,9 +2,10 @@
 
 PDF: [ThinkBook_14p_G2_ACH Reference](https://psref.lenovo.com/syspool/Sys/PDF/ThinkBook/ThinkBook_14p_G2_ACH/ThinkBook_14p_G2_ACH_Spec.pdf)
 
-This EFI aims to work with `macOS Ventura` now. Stay tuned :)
+This EFI aims to work with `macOS Sonoma` now. Stay tuned :)
 
-[![pC2ty60.png](https://s1.ax1x.com/2023/07/09/pC2ty60.png)](https://imgse.com/i/pC2ty60)
+![image](https://github.com/Kingtous/thinkbook14p-Gen2-ACH-hackintosh/assets/39793325/02f40418-6ff5-49aa-8fae-fe562e95be5f)
+
 
 |Properties|Detail| Works? |
 |---|-----|--|
