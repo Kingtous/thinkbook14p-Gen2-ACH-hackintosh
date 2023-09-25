@@ -12,7 +12,7 @@ This EFI aims to work with `macOS Sonoma` now. Stay tuned :)
 |CPU|AMD Ryzen 7 5800H| YES|
 |Memory|32G| YES|
 |GPU|Vega 8(integrated GPU)| YES|
-|Sound|ALC3287(ALC257, layout-id=11)|YES(MIC is investigating)|
+|Sound|ALC3287(ALC257, layout-id=11)|YES|
 |HDMI|Vega 8(integrated GPU)|YES|
 |Network Card| AX200 WiFi6|YES|
 |iCloud|Sync|YES|
