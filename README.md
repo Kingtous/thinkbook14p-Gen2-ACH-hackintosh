@@ -4,6 +4,10 @@ PDF: [ThinkBook_14p_G2_ACH Reference](https://psref.lenovo.com/syspool/Sys/PDF/T
 
 This EFI aims to work with `macOS Sonoma` now. Stay tuned :)
 
+latest support: macOS Sonoma 14.3.1 stable.
+
+Note: PLZ do not update to 14.4 beta and newer, many issues related to AirportItlwm, NootedRed has reported recently.
+
 ![image](https://github.com/Kingtous/thinkbook14p-Gen2-ACH-hackintosh/assets/39793325/02f40418-6ff5-49aa-8fae-fe562e95be5f)
 
 
