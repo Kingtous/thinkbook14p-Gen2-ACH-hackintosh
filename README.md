@@ -10,10 +10,7 @@ This EFI aims to work with `macOS Sequoia` now. Stay tuned :)
 - latest **stable** support👍: 14.5 stable+. (the best experience)
 - latest **beta** support👷🧱: macOS 15.1.1 (24B91)
 
-![image2](https://github.com/user-attachments/assets/44a52777-0d41-4879-bcf4-a623f381f52d)
-
-![image](https://github.com/Kingtous/thinkbook14p-Gen2-ACH-hackintosh/assets/39793325/02f40418-6ff5-49aa-8fae-fe562e95be5f)
-
+![截屏2024-12-08 12 48 10](https://github.com/user-attachments/assets/db0c9fcb-bb04-40c4-a17f-bad265568cbc)
 
 |Properties|Detail| Works(stable)? | Works(beta)? |
 |---|-----|--|--|
