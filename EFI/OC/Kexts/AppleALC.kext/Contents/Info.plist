@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>21G320</string>
+	<string>23H222</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.9.1</string>
+	<string>1.9.3</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,23 +25,23 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.9.1</string>
+	<string>1.9.3</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>14C18</string>
+	<string></string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>13.1</string>
+	<string>14.2</string>
 	<key>DTSDKBuild</key>
-	<string>22C55</string>
+	<string>23C53</string>
 	<key>DTSDKName</key>
-	<string>macosx13.1</string>
+	<string>macosx14.2</string>
 	<key>DTXcode</key>
-	<string>1420</string>
+	<string>1520</string>
 	<key>DTXcodeBuild</key>
-	<string>14C18</string>
+	<string>15C500b</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>ALCUserClientProvider</key>
@@ -5845,6 +5845,32 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
+					<string>Realtek ALC274 for Optiplex 7470 AIO</string>
+					<key>CodecID</key>
+					<integer>283902580</integer>
+					<key>ConfigData</key>
+					<data>
+					AWcMAgIFAEUCBNaJATcdAAE3HgABNx9AAZcc
+					QAGXHRABlx6nAZcfAAG3HFABtx0QAbceAQG3
+					HwECFx8B
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AWcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
 					<string>Andres ZeroCross - Realtek ALC274 for Dell Inspiron 27-7777 AIO Series</string>
 					<key>CodecID</key>
 					<integer>283902580</integer>
@@ -7021,6 +7047,37 @@
 					<data>
 					AwAAAA==
 					</data>
+					<key>CodecID</key>
+					<integer>283902597</integer>
+					<key>CodecName</key>
+					<string>PIut02 - Realtek ALC285 for ROG-Zephyrus-G14</string>
+					<key>ConfigData</key>
+					<data>
+					AScccAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AAE3H0ABRxxAAUcdAQFHHhcBRx+QAUcMAgFn
+					HPABZx0AAWceAAFnH0ABdxxBAXcdAQF3HhcB
+					dx+QAYcc8AGHHQABhx4AAYcfQAGXHCABlx0Q
+					AZceiwGXHwIBpxzwAacdAAGnHgABpx9AAbcc
+					8AG3HQABtx4AAbcfQAG3DAIB1xzwAdcdAAHX
+					HgAB1x9AAecc8AHnHQAB5x4AAecfQAIXHFAC
+					Fx0QAhceKwIXHwICFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>33</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgG3DAICFwwC
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Realtek ALC285 for Yoga C740 by fewtarius</string>
 					<key>CodecID</key>
@@ -7481,7 +7538,7 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
-					<string>Realtek ALC289 for Asus ROG Zephyrus G14</string>
+					<string>PIut02 - Realtek ALC289 for ROG-Zephyrus-G14</string>
 					<key>CodecID</key>
 					<integer>283902601</integer>
 					<key>ConfigData</key>
@@ -8169,6 +8226,36 @@
 					<key>WakeConfigData</key>
 					<data>
 					AXcMAgIXDAI=
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Theroadw - Realtek ALC294 for Asus rog strix g512li</string>
+					<key>CodecID</key>
+					<integer>283902612</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQEBRx4XAUcfkAFHDAICFxwgAhcd
+					EAIXHiECFx8DAhcMAgEnHDABJx0BAScepgEn
+					H5ABlxxAAZcdEAGXHoEBlx8CATcc8AE3HQAB
+					Nx4AATcfQAGHHPABhx0AAYceAAGHH0ABpxzw
+					AacdAAGnHgABpx9AAbcc8AG3HQABtx4AAbcf
+					QAHXHPAB1x0AAdceAAHXH0AB5xzwAecdAAHn
+					HgAB5x9AAgUAEAIEASABlwckAhcIgw==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>24</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
 					</data>
 					<key>WakeVerbReinit</key>
 					<true/>
@@ -11452,6 +11539,38 @@
 					<data>
 					AwAAAA==
 					</data>
+					<key>Codec</key>
+					<string>MSI GE60 2OC/2OE/2OD</string>
+					<key>CodecID</key>
+					<integer>283904146</integer>
+					<key>ConfigData</key>
+					<data>
+					ARcc8AEXHQABFx4AARcfQAEnHPABJx0AASce
+					AAEnH0ABRxwgAUcdEAFHHiEBRx8BAVcc8AFX
+					HQABVx4AAVcfQAFnHPABZx0AAWceAAFnH0AB
+					dxzwAXcdAAF3HgABdx9AAYccUAGHHRABhx6B
+					AYcfAQGXHEABlx0BAZceowGXH5kBpxzwAacd
+					AAGnHgABpx9AAbccEAG3HQEBtx4TAbcfmQHH
+					HPABxx0AAcceAAHHH0AB1xzwAdcdAAHXHgAB
+					1x9AAeccMAHnHRAB5x5FAecfAQH3HPAB9x0A
+					AfceAAH3H0ABRwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>66</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283904146</integer>
 					<key>Comment</key>
@@ -13037,6 +13156,31 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>11</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgG3DAI=
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>CodecID</key>
+					<integer>283904768</integer>
+					<key>CodecName</key>
+					<string>VictorXu -  Realtek ALCS1200A for MSI B460I GAMING EDGE WIFI</string>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHVABRx4RAUcfkQFHDAIBtxwgAbcd
+					QAG3HiEBtx8CAbcMAgHnHDAB5x0QAeceRQHn
+					HwEBlxxQAZcdkAGXHoEBlx8CAVccYAFXHRAB
+					Vx4BAVcfAQFnHHABZx0QAWceAQFnHwEBhxyA
+					AYcdEAGHHqEBhx+RAacckAGnHRABpx6BAacf
+					AQ==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>23</integer>
 					<key>WakeConfigData</key>
 					<data>
 					AUcMAgG3DAI=
@@ -16377,6 +16521,29 @@
 					<key>WakeConfigData</key>
 					<data>
 					AUcMAgFXDAI=
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>CodecID</key>
+					<integer>283904768</integer>
+					<key>CodecName</key>
+					<string>mobilestebu - Realtek ALCS1200A for ASUS TUF-Z390M-Gaming (based on owen0o0 layout 11)</string>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHUABRx4BAUcfAQFHDAIBtxwgAbcd
+					QAG3HiEBtx8CAbcMAgEXHDABFx0BARceRgEX
+					H5ABhxxQAYcdkAGHHqEBhx8BAaccXwGnHTAB
+					px6BAacfAQGXHGABlx2QAZceoQGXHwI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgG3DAI=
 					</data>
 					<key>WakeVerbReinit</key>
 					<true/>

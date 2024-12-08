@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>23F79</string>
+	<string>23H222</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>ForgedInvariant</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.ChefKissInc.ForgedInvariant</string>
+	<string>org.ChefKiss.ForgedInvariant</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -33,21 +33,21 @@
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>13.3</string>
+	<string>14.5</string>
 	<key>DTSDKBuild</key>
-	<string>22E245</string>
+	<string>23F73</string>
 	<key>DTSDKName</key>
-	<string>macosx13.3</string>
+	<string>macosx14.5</string>
 	<key>DTXcode</key>
-	<string>1431</string>
+	<string>1540</string>
 	<key>DTXcodeBuild</key>
-	<string>14E300c</string>
+	<string>15F31d</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>ForgedInvariant</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.ChefKissInc.ForgedInvariant</string>
+			<string>org.ChefKiss.ForgedInvariant</string>
 			<key>IOClass</key>
 			<string>ForgedInvariant</string>
 			<key>IOMatchCategory</key>
@@ -59,7 +59,7 @@
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.15</string>
+	<string>10.11</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2023-2024 ChefKiss. Licensed under the Thou Shalt Not Profit License version 1.5. See https://github.com/ChefKissInc/ForgedInvariant/LICENSE for details.</string>
 	<key>OSBundleCompatibleVersion</key>

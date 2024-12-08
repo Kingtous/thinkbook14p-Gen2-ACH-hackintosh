@@ -611,7 +611,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string>V1.6.7 | Lilu.kext</string>
+				<string>V1.7.0 | Lilu.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -629,7 +629,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string>V1.3.3</string>
+				<string>V1.3.4</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -647,7 +647,7 @@
 				<key>BundlePath</key>
 				<string>ForgedInvariant.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>V1.0.0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -663,9 +663,27 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>AmdTscSync.kext</string>
+				<key>Comment</key>
+				<string>V2.0.0</string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AmdTscSync</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>ECEnabler.kext</string>
 				<key>Comment</key>
-				<string>V1.0.4 | ECEnabler.kext</string>
+				<string>V1.0.5 | ECEnabler.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -701,7 +719,7 @@
 				<key>BundlePath</key>
 				<string>AMDRyzenCPUPowerManagement.kext</string>
 				<key>Comment</key>
-				<string>V0.7.1 | AMDRyzenCPUPowerManagement.kext</string>
+				<string>V0.7.2 | AMDRyzenCPUPowerManagement.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -755,7 +773,7 @@
 				<key>BundlePath</key>
 				<string>BFixup.kext</string>
 				<key>Comment</key>
-				<string>V1.0.0 | BFixup.kext</string>
+				<string>V1.0.1 | BFixup.kext</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -773,7 +791,7 @@
 				<key>BundlePath</key>
 				<string>NVMeFix.kext</string>
 				<key>Comment</key>
-				<string>V1.1.0 | NVMeFix.kext</string>
+				<string>V1.1.2 | NVMeFix.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -809,7 +827,7 @@
 				<key>BundlePath</key>
 				<string>RestrictEvents.kext</string>
 				<key>Comment</key>
-				<string>V1.1.3</string>
+				<string>V1.1.5</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -845,7 +863,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
-				<string>V2.3.5</string>
+				<string>V2.3.7</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -863,7 +881,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
 				<key>Comment</key>
-				<string>V2.3.5</string>
+				<string>V2.3.7</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -917,7 +935,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext</string>
 				<key>Comment</key>
-				<string>V1.1.4</string>
+				<string>V1.1.6</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -953,7 +971,7 @@
 				<key>BundlePath</key>
 				<string>FeatureUnlock.kext</string>
 				<key>Comment</key>
-				<string>V1.1.4 | FeatureUnlock.kext</string>
+				<string>V1.1.7 | FeatureUnlock.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -971,7 +989,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>V1.9.1 | AppleALC.kext</string>
+				<string>V1.9.3 | AppleALC.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -989,7 +1007,7 @@
 				<key>BundlePath</key>
 				<string>SMCBatteryManager.kext</string>
 				<key>Comment</key>
-				<string>V1.3.3 | SMCBatteryManager.kext</string>
+				<string>V1.3.4 | SMCBatteryManager.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1007,7 +1025,7 @@
 				<key>BundlePath</key>
 				<string>SMCRadeonSensors.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>V2.0.0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1025,7 +1043,7 @@
 				<key>BundlePath</key>
 				<string>SMCLightSensor.kext</string>
 				<key>Comment</key>
-				<string>V1.3.3 | SMCLightSensor.kext</string>
+				<string>V1.3.4 | SMCLightSensor.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1079,7 +1097,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext</string>
 				<key>Comment</key>
-				<string>V2.8</string>
+				<string>V2.9.1</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1115,9 +1133,9 @@
 				<key>BundlePath</key>
 				<string>AirportItlwm.kext</string>
 				<key>Comment</key>
-				<string>V2.3.0-Sonoma</string>
+				<string>V2.3.0</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportItlwm</string>
 				<key>MaxKernel</key>
@@ -1133,9 +1151,9 @@
 				<key>BundlePath</key>
 				<string>AirportItlwm-12.kext</string>
 				<key>Comment</key>
-				<string>V2.3.0-Monterey</string>
+				<string>V2.3.0</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportItlwm</string>
 				<key>MaxKernel</key>
@@ -1151,7 +1169,7 @@
 				<key>BundlePath</key>
 				<string>IntelBluetoothFirmware.kext</string>
 				<key>Comment</key>
-				<string>V2.2.0</string>
+				<string>V2.5.0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1169,7 +1187,7 @@
 				<key>BundlePath</key>
 				<string>IntelBTPatcher.kext</string>
 				<key>Comment</key>
-				<string>V2.2.0</string>
+				<string>V2.5.0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1187,7 +1205,7 @@
 				<key>BundlePath</key>
 				<string>BlueToolFixup.kext</string>
 				<key>Comment</key>
-				<string>V2.6.6</string>
+				<string>V2.6.9</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -2508,7 +2526,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-revbeta revcpu=1 -lilubetaall revpatch=auto,sbvmm -alcbeta -vsmcbeta -ChefKissInternal</string>
+				<string>-v -revbeta revcpu=1 -lilubetaall revpatch=auto,sbvmm -alcbeta -vsmcbeta -ChefKissInternal</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>run-efi-updater</key>
