@@ -18,7 +18,7 @@ This EFI aims to work with `macOS Sequoia` now. Stay tuned :)
 |Memory|32G| YES|YES|
 |GPU|Vega 8(integrated GPU)| YES|YES|
 |Sound|ALC3287(ALC257, layout-id=11)|YES|YES|
-|HDMI|Vega 8(integrated GPU)|YES|Not Tested|
+|HDMI|Vega 8(integrated GPU)|YES|YES|
 |Network Card| AX200 WiFi6|YES|PART(with itlwm+heliport only, and doesn't work with AirportItlwm)|
 |iCloud|Sync|YES|YES|
 |Camera (HID)|FaceTime|YES|YES|
