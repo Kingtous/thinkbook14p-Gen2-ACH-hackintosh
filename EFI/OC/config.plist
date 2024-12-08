@@ -2531,6 +2531,14 @@
 				<data>AAAAAA==</data>
 				<key>run-efi-updater</key>
 				<string>No</string>
+				<key>bluetoothExternalDongleFailed</key>
+				<data>
+				AA==
+				</data>
+				<key>bluetoothInternalControllerInfo</key>
+				<data>
+				AAAAAAAAAAAAAAAAAAA=
+				</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -2540,7 +2548,10 @@
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<array/>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
-			<array/>
+			<array>
+				<string>bluetoothExternalDongleFailed</string>
+				<string>bluetoothInternalControllerInfo</string>
+			</array>
 		</dict>
 		<key>LegacyOverwrite</key>
 		<false/>
