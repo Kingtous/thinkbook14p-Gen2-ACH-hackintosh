@@ -8,7 +8,7 @@ This EFI aims to work with `macOS Sequoia` now. Stay tuned :)
 ## EFI Details
 
 - latest **stable** support👍: 14.5 stable+. (the best experience)
-- latest **beta** support👷🧱: macOS Sequoia beta 15.0(24A5320a)
+- latest **beta** support👷🧱: macOS 15.1.1 (24B91)
 
 ![image2](https://github.com/user-attachments/assets/44a52777-0d41-4879-bcf4-a623f381f52d)
 
@@ -20,7 +20,7 @@ This EFI aims to work with `macOS Sequoia` now. Stay tuned :)
 |CPU|AMD Ryzen 7 5800H| YES| YES|
 |Memory|32G| YES|YES|
 |GPU|Vega 8(integrated GPU)| YES|YES|
-|Sound|ALC3287(ALC257, layout-id=11)|YES|NO(wait for the fix from AppleALC)|
+|Sound|ALC3287(ALC257, layout-id=11)|YES|YES|
 |HDMI|Vega 8(integrated GPU)|YES|Not Tested|
 |Network Card| AX200 WiFi6|YES|PART(with itlwm+heliport only, and doesn't work with AirportItlwm)|
 |iCloud|Sync|YES|YES|
