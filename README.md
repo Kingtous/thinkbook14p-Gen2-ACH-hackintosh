@@ -2,10 +2,26 @@
 
 PDF: [ThinkBook_14p_G2_ACH Reference](https://psref.lenovo.com/syspool/Sys/PDF/ThinkBook/ThinkBook_14p_G2_ACH/ThinkBook_14p_G2_ACH_Spec.pdf)
 
-This EFI aims to work with `macOS Sequoia` now. Stay tuned :)
+## macOS Tahoe 26.7.1（2026-10-23）
+
+Ryzen 7 5800H / Vega `1002:1638` / 32 GB / AX200 已在 SSK USB SSD 上完成安装、通过欢迎流程并进入桌面。截图显示 Tahoe 26.7.1、AMD Radeon RX Renoir Graphics、4 GB 显存；这不等同于已经验证硬件视频编解码。
+
+- OpenCore 1.0.8，SMBIOS `MacBookPro16,2`，更新核心 kext；保留本机 USB 映射、定制 DSDT 和已回退验证的触摸板组合。
+- 使用 **[steve12311/NootedRed v0.9.0-pre-release.6](https://github.com/steve12311/NootedRed/releases/tag/v0.9.0-pre-release.6) fork**，并非 ChefKissInc 原版构建。NootedRed 本体启用；`-NRedDisplayFix` / `-NRedVideoFix` 当前关闭。两者同时启用时曾出现 Double fault，关闭后能进桌面，具体触发路径尚未确认。
+- AMD 8 核补丁及 [AMD_Vanilla PR #215](https://github.com/AMD-OSX/AMD_Vanilla/pull/215) 的 Darwin 25.4+ TSC 修补；只引入 TSC 部分，未引入该 PR 的 PCI 改动。
+- Tahoe 使用 laobamac AirportItlwm；AppleALC + SimpleHDA 1.0.0 为音频候选，音频尚待用户验收。
+- 最新反馈：整体卡顿明显减轻，Edge 首次打开仍冻结约 10–20 秒。硬件视频编解码、电源通知延迟、睡眠唤醒仍待验证，不能将原版 NootedRed 的问题直接视为此 fork 的诊断结论。
+
+**公开配置中的序列号、MLB、UUID、ROM 已清空，使用前请自行生成并填写 `PlatformInfo/Generic`，机型保持 `MacBookPro16,2`。** 本机可启动配置及安装包仅保存在本地，不随仓库发布。截图包含本机序列号，未提交原图。
+
+从 F12 直接选择 UEFI U 盘进入 OpenCore；本机 Ventoy F6 链式启动会卡住。
+
+见 [当前配置、卡顿规避与音频验收（中文）](docs/TAHOE-FINAL-USB-2026-10-23.md) 和 [完整维护记录](docs/TAHOE-MAINTENANCE-2026-10-23.md)。
 
 
 ## EFI Details
+
+The compatibility results below are historical (2024); they do not establish Tahoe compatibility.
 
 - latest **stable** support👍: 14.5 stable+. (the best experience)
 - latest **beta** support👷🧱: macOS 15.1.1 (24B91)
@@ -30,7 +46,7 @@ This EFI aims to work with `macOS Sequoia` now. Stay tuned :)
 
 The latest **stable** EFI will always have a snapshot release and I have already placed it in [Github Release Page](https://github.com/Kingtous/thinkbook14p-Gen2-ACH-hackintosh/releases).
 
-The latest **beta** EFI will always be the latest commit on the master branch of this repo. Just clone it and use it.
+The latest experimental EFI is on the `main` branch. Generate your own platform identity before use; the historical stable releases below do not establish Tahoe compatibility.
 
 
 ## Credits
@@ -46,4 +62,4 @@ QQ Group:
 
 ### Chrome is about to freeze the whole macOS when opening.
 
-A: This is an upstream issue of NootedRed, which is the AMD graphic driver which is responsible for accelerate video encoding/decoding. Please check [NootedRed Guide for configuring Chrome](https://chefkissinc.github.io/nred#chrome-chromium-based-browsers-and-apps-like-sublime-text-cause-graphical-artefacts-amongst-other-problems) to solve it.
+A: This is a historical NootedRed graphics issue. Graphics/Metal acceleration and hardware video encoding/decoding are separate capabilities; this tree's newer fork provides experimental VCN video support. See the Tahoe notes above for testing and fallback options. The original [NootedRed Chrome guidance](https://chefkissinc.github.io/nred#chrome-chromium-based-browsers-and-apps-like-sublime-text-cause-graphical-artefacts-amongst-other-problems) remains a reference for older builds.

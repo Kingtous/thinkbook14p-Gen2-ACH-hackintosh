@@ -24,6 +24,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Restore real EC resource entry point; investigate delayed AC notifications</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-EC-CRS.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
@@ -121,29 +129,38 @@
 				<key>BaseSkip</key>
 				<integer>0</integer>
 				<key>Comment</key>
-				<string>HPET _CRS to XCRS Rename</string>
+				<string>Disabled: unscoped _CRS rename breaks resource methods; H_EC.XCRS already in DSDT</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
-				<data>BF9DUlM=</data>
+				<data>
+				BF9DUlM=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
 				<key>Replace</key>
-				<data>BFhDUlM=</data>
+				<data>
+				BFhDUlM=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -157,23 +174,32 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>IgABeQA=</data>
+				<data>
+				IgABeQA=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
 				<key>Replace</key>
-				<data>IgAAeQA=</data>
+				<data>
+				IgAAeQA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -187,23 +213,32 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>IgEAeQA=</data>
+				<data>
+				IgEAeQA=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
 				<key>Replace</key>
-				<data>IgAAeQA=</data>
+				<data>
+				IgAAeQA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -217,23 +252,32 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X09TSQ==</data>
+				<data>
+				X09TSQ==
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
 				<key>Replace</key>
-				<data>WE9TSQ==</data>
+				<data>
+				WE9TSQ==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -247,23 +291,32 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>X0JJWAg=</data>
+				<data>
+				X0JJWAg=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WEJJWAg=</data>
+				<data>
+				WEJJWAg=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>RFNEVA==</data>
+				<data>
+				RFNEVA==
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -277,23 +330,32 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>X0JTVAA=</data>
+				<data>
+				X0JTVAA=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WEJTVAA=</data>
+				<data>
+				WEJTVAA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>RFNEVA==</data>
+				<data>
+				RFNEVA==
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -307,23 +369,32 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>R1NCSQE=</data>
+				<data>
+				R1NCSQE=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFNCSQE=</data>
+				<data>
+				WFNCSQE=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>RFNEVA==</data>
+				<data>
+				RFNEVA==
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -337,23 +408,32 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>R0JJRAg=</data>
+				<data>
+				R0JJRAg=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WEJJRAg=</data>
+				<data>
+				WEJJRAg=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>RFNEVA==</data>
+				<data>
+				RFNEVA==
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -367,23 +447,32 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>X1EwNQ==</data>
+				<data>
+				X1EwNQ==
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFEwNQ==</data>
+				<data>
+				WFEwNQ==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>RFNEVA==</data>
+				<data>
+				RFNEVA==
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -397,23 +486,32 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>X1EwNg==</data>
+				<data>
+				X1EwNg==
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFEwNg==</data>
+				<data>
+				WFEwNg==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>RFNEVA==</data>
+				<data>
+				RFNEVA==
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -427,23 +525,32 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>X1ExNA==</data>
+				<data>
+				X1ExNA==
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFExNA==</data>
+				<data>
+				WFExNA==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>RFNEVA==</data>
+				<data>
+				RFNEVA==
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -457,23 +564,32 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>X1ExNQ==</data>
+				<data>
+				X1ExNQ==
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFExNQ==</data>
+				<data>
+				WFExNQ==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>RFNEVA==</data>
+				<data>
+				RFNEVA==
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -487,23 +603,32 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>X1ExNg==</data>
+				<data>
+				X1ExNg==
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFExNg==</data>
+				<data>
+				WFExNg==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>RFNEVA==</data>
+				<data>
+				RFNEVA==
+				</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -581,6 +706,8 @@
 			<false/>
 			<key>SyncRuntimePermissions</key>
 			<true/>
+			<key>ClearTaskSwitchBit</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
@@ -590,7 +717,9 @@
 			<key>PciRoot(0x1)/Pci(0x2,0x4)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>built-in</key>
-				<data>AQ==</data>
+				<data>
+				AQ==
+				</data>
 			</dict>
 			<key>PciRoot(0x1)/Pci(0x8,0x1)/Pci(0x0,0x6)</key>
 			<dict>
@@ -611,7 +740,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string>V1.7.0 | Lilu.kext</string>
+				<string>V1.7.2 | Lilu.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -629,7 +758,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string>V1.3.4</string>
+				<string>V1.3.8 | VirtualSMC.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -647,7 +776,7 @@
 				<key>BundlePath</key>
 				<string>ForgedInvariant.kext</string>
 				<key>Comment</key>
-				<string>V1.0.0</string>
+				<string>V1.5.0 | ForgedInvariant.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -665,7 +794,7 @@
 				<key>BundlePath</key>
 				<string>AmdTscSync.kext</string>
 				<key>Comment</key>
-				<string>V2.0.0</string>
+				<string>V2.0.0 | AmdTscSync.kext</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -683,7 +812,7 @@
 				<key>BundlePath</key>
 				<string>ECEnabler.kext</string>
 				<key>Comment</key>
-				<string>V1.0.5 | ECEnabler.kext</string>
+				<string>V1.0.6 | ECEnabler.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -737,7 +866,7 @@
 				<key>BundlePath</key>
 				<string>NootedRed.kext</string>
 				<key>Comment</key>
-				<string>V1.0.0 | NootedRed.kext</string>
+				<string>0.9.0-pre-release.6 | steve12311 | experimental VCN 2.2</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -791,7 +920,7 @@
 				<key>BundlePath</key>
 				<string>NVMeFix.kext</string>
 				<key>Comment</key>
-				<string>V1.1.2 | NVMeFix.kext</string>
+				<string>V1.1.3 | NVMeFix.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -807,9 +936,27 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>USBToolBox.kext</string>
+				<key>Comment</key>
+				<string>V1.2.0 | USBToolBox.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/USBToolBox</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>UTBMap.kext</string>
 				<key>Comment</key>
-				<string>V1.1</string>
+				<string>V1.1 | UTBMap.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -827,7 +974,7 @@
 				<key>BundlePath</key>
 				<string>RestrictEvents.kext</string>
 				<key>Comment</key>
-				<string>V1.1.5</string>
+				<string>V1.1.6 | RestrictEvents.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -843,27 +990,9 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>USBToolBox.kext</string>
-				<key>Comment</key>
-				<string>V1.1.1 | USBToolBox.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/USBToolBox</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
-				<string>V2.3.7</string>
+				<string>V2.3.7 | VoodooPS2Controller.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -881,7 +1010,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
 				<key>Comment</key>
-				<string>V2.3.7</string>
+				<string>V2.3.7 | VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -899,7 +1028,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext</string>
 				<key>Comment</key>
-				<string>V1.1</string>
+				<string>V1.1 | VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -917,7 +1046,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext</string>
 				<key>Comment</key>
-				<string>V1</string>
+				<string>V1 | VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -935,7 +1064,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext</string>
 				<key>Comment</key>
-				<string>V1.1.6</string>
+				<string>V1.1.4 | VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -977,7 +1106,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/FeatureUnlock</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -989,7 +1118,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>V1.9.3 | AppleALC.kext</string>
+				<string>V1.9.8 | AppleALC.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1005,9 +1134,27 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>SimpleHDA.kext</string>
+				<key>Comment</key>
+				<string>1.0.0 | laobamac | restore AppleHDA on Tahoe; audio acceptance pending</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SimpleHDA</string>
+				<key>MaxKernel</key>
+				<string>25.99.99</string>
+				<key>MinKernel</key>
+				<string>25.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>SMCBatteryManager.kext</string>
 				<key>Comment</key>
-				<string>V1.3.4 | SMCBatteryManager.kext</string>
+				<string>V1.3.8 | SMCBatteryManager.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1025,7 +1172,7 @@
 				<key>BundlePath</key>
 				<string>SMCRadeonSensors.kext</string>
 				<key>Comment</key>
-				<string>V2.0.0</string>
+				<string>V2.0.0 | SMCRadeonSensors.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1043,7 +1190,7 @@
 				<key>BundlePath</key>
 				<string>SMCLightSensor.kext</string>
 				<key>Comment</key>
-				<string>V1.3.4 | SMCLightSensor.kext</string>
+				<string>V1.3.8 | SMCLightSensor.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1097,7 +1244,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext</string>
 				<key>Comment</key>
-				<string>V2.9.1</string>
+				<string>V2.8 | VoodooI2C.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1115,7 +1262,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2CHID.kext</string>
 				<key>Comment</key>
-				<string>V1</string>
+				<string>V1 | VoodooI2CHID.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1133,7 +1280,7 @@
 				<key>BundlePath</key>
 				<string>AirportItlwm.kext</string>
 				<key>Comment</key>
-				<string>V2.3.0</string>
+				<string>V2.3.0 | AirportItlwm.kext</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -1151,7 +1298,7 @@
 				<key>BundlePath</key>
 				<string>AirportItlwm-12.kext</string>
 				<key>Comment</key>
-				<string>V2.3.0</string>
+				<string>V2.3.0 | AirportItlwm-12.kext</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -1169,7 +1316,7 @@
 				<key>BundlePath</key>
 				<string>IntelBluetoothFirmware.kext</string>
 				<key>Comment</key>
-				<string>V2.5.0</string>
+				<string>V2.5.0 | IntelBluetoothFirmware.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1187,7 +1334,7 @@
 				<key>BundlePath</key>
 				<string>IntelBTPatcher.kext</string>
 				<key>Comment</key>
-				<string>V2.5.0</string>
+				<string>V2.5.0 | IntelBTPatcher.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1205,7 +1352,7 @@
 				<key>BundlePath</key>
 				<string>BlueToolFixup.kext</string>
 				<key>Comment</key>
-				<string>V2.6.9</string>
+				<string>V2.7.2 | BlueToolFixup.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1223,15 +1370,33 @@
 				<key>BundlePath</key>
 				<string>itlwm.kext</string>
 				<key>Comment</key>
-				<string>V2.3.0</string>
+				<string>V2.3.0 | itlwm.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/itlwm</string>
 				<key>MaxKernel</key>
-				<string>25.99.99</string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>24.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>AirportItlwm-Tahoe.kext</string>
+				<key>Comment</key>
+				<string>2.4.0-alpha-738d4c6 | laobamac | native Tahoe Wi-Fi; experimental</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AirportItlwm</string>
+				<key>MaxKernel</key>
+				<string>25.99.99</string>
+				<key>MinKernel</key>
+				<string>25.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1241,9 +1406,11 @@
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
-			<data></data>
+			<data>
+			</data>
 			<key>Cpuid1Mask</key>
-			<data></data>
+			<data>
+			</data>
 			<key>DummyPowerManagement</key>
 			<true/>
 			<key>MaxKernel</key>
@@ -1267,21 +1434,29 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>wegaAAAA</data>
+				<data>
+				wegaAAAA
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>//3/AAAA</data>
+				<data>
+				//3/AAAA
+				</data>
 				<key>MaxKernel</key>
 				<string>18.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>uAgAAAAA</data>
+				<data>
+				uAgAAAAA
+				</data>
 				<key>ReplaceMask</key>
-				<data>//////8A</data>
+				<data>
+				//////8A
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1297,21 +1472,29 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>wegaAAAA</data>
+				<data>
+				wegaAAAA
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>//3/AAAA</data>
+				<data>
+				//3/AAAA
+				</data>
 				<key>MaxKernel</key>
 				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>19.0.0</string>
 				<key>Replace</key>
-				<data>uggAAAAA</data>
+				<data>
+				uggAAAAA
+				</data>
 				<key>ReplaceMask</key>
-				<data>//////8A</data>
+				<data>
+				//////8A
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1327,21 +1510,28 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>wegaAAAA</data>
+				<data>
+				wegaAAAA
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>//3/AAAA</data>
+				<data>
+				//3/AAAA
+				</data>
 				<key>MaxKernel</key>
 				<string>22.3.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
-				<data>uggAAACQ</data>
+				<data>
+				uggAAACQ
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1357,21 +1547,29 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>wegaAAA=</data>
+				<data>
+				wegaAAA=
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>//3/AAA=</data>
+				<data>
+				//3/AAA=
+				</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>22.4.0</string>
 				<key>Replace</key>
-				<data>uggAAAA=</data>
+				<data>
+				uggAAAA=
+				</data>
 				<key>ReplaceMask</key>
-				<data>//////8=</data>
+				<data>
+				//////8=
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1387,21 +1585,27 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>uaABAAAPMg==</data>
+				<data>
+				uaABAAAPMg==
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>ZpBmkGaQkA==</data>
+				<data>
+				ZpBmkGaQkA==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1417,21 +1621,27 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>uAQAAABEifFEiQ==</data>
+				<data>
+				uAQAAABEifFEiQ==
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>uB0AAIBEifFEiQ==</data>
+				<data>
+				uB0AAIBEifFEiQ==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1447,21 +1657,27 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>uYsAAAAxwDHSDzA=</data>
+				<data>
+				uYsAAAAxwDHSDzA=
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>ZpBmkGaQZpBmkJA=</data>
+				<data>
+				ZpBmkGaQZpBmkJA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1477,21 +1693,27 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>uYsAAAAPMg==</data>
+				<data>
+				uYsAAAAPMg==
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>uroAAABmkA==</data>
+				<data>
+				uroAAABmkA==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1507,21 +1729,27 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>uRcAAAAPMsHqEoDiBw==</data>
+				<data>
+				uRcAAAAPMsHqEoDiBw==
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>sgFmDx+EAAAAAABmkA==</data>
+				<data>
+				sgFmDx+EAAAAAABmkA==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1537,21 +1765,27 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>ADoPgg==</data>
+				<data>
+				ADoPgg==
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>MaxKernel</key>
 				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>AAAPgg==</data>
+				<data>
+				AAAPgg==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1561,27 +1795,33 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>algrey | _cpuid_set_generic_info | Disable check to allow leaf7 | 15.x</string>
+				<string>algrey | _cpuid_set_generic_info | Disable check to allow leaf7 | 15.0+</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>AAUPgg==</data>
+				<data>
+				AAUPgg==
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>24.0.0</string>
 				<key>Replace</key>
-				<data>AAAPgg==</data>
+				<data>
+				AAAPgg==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1597,21 +1837,27 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>R2VudWluZUludGVsAA==</data>
+				<data>
+				R2VudWluZUludGVsAA==
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>MaxKernel</key>
 				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>QXV0aGVudGljQU1EAA==</data>
+				<data>
+				QXV0aGVudGljQU1EAA==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1627,21 +1873,28 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>AAAAAAAAMdKzAQ==</data>
+				<data>
+				AAAAAAAAMdKzAQ==
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>AAAAAAAA/////w==</data>
+				<data>
+				AAAAAAAA/////w==
+				</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
-				<data>kJCQkJCQMdKzAQ==</data>
+				<data>
+				kJCQkJCQMdKzAQ==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1657,21 +1910,28 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>MduAPQAAAAAGdQA=</data>
+				<data>
+				MduAPQAAAAAGdQA=
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>/////wAAAP///wA=</data>
+				<data>
+				/////wAAAP///wA=
+				</data>
 				<key>MaxKernel</key>
 				<string>20.3.0</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>u7xP6njpXQAAAJA=</data>
+				<data>
+				u7xP6njpXQAAAJA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1679,7 +1939,7 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>Base</key>
-				<string>_cpuid_set_info</string>
+				<string>_cpuid_set_info </string>
 				<key>Comment</key>
 				<string>algrey | _cpuid_set_cpufamily | Force CPUFAMILY_INTEL_PENRYN | 11.3+</string>
 				<key>Count</key>
@@ -1687,21 +1947,28 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>gD0AAAAABnU=</data>
+				<data>
+				gD0AAAAABnU=
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>//8AAAAA//8=</data>
+				<data>
+				//8AAAAA//8=
+				</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>20.4.0</string>
 				<key>Replace</key>
-				<data>urxP6ngx2+s=</data>
+				<data>
+				urxP6ngx2+s=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1717,21 +1984,29 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>uZkBAAAPMkjB4iCJxkgJ1rmYAQAADzJIweIgicBICcK/WAIxBTHJRTHA</data>
+				<data>
+				uZkBAAAPMkjB4iCJxkgJ1rmYAQAADzJIweIgicBICcK/
+				WAIxBTHJRTHA
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>Zg8fhAAAAAAAZg8fhAAAAAAAZg8fhAAAAAAAZg8fhAAAAAAAZg8fRAAA</data>
+				<data>
+				Zg8fhAAAAAAAZg8fhAAAAAAAZg8fhAAAAAAAZg8fhAAA
+				AAAAZg8fRAAA
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1747,21 +2022,27 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>JfwAAACD+BM=</data>
+				<data>
+				JfwAAACD+BM=
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>JfwAAAAPHwA=</data>
+				<data>
+				JfwAAAAPHwA=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1777,21 +2058,29 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>4BFyAA==</data>
+				<data>
+				4BFyAA==
+				</data>
 				<key>Identifier</key>
 				<string>com.apple.iokit.IOPCIFamily</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>8P//8A==</data>
+				<data>
+				8P//8A==
+				</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
-				<data>AAADAA==</data>
+				<data>
+				AAADAA==
+				</data>
 				<key>ReplaceMask</key>
-				<data>AAAPAA==</data>
+				<data>
+				AAAPAA==
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1807,351 +2096,29 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>hAB1Sw==</data>
+				<data>
+				hAB1Sw==
+				</data>
 				<key>Identifier</key>
 				<string>com.apple.iokit.IOPCIFamily</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>/wD//w==</data>
+				<data>
+				/wD//w==
+				</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>22.0.0</string>
 				<key>Replace</key>
-				<data>AADrAA==</data>
+				<data>
+				AADrAA==
+				</data>
 				<key>ReplaceMask</key>
-				<data>AAD/AA==</data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>algrey | _mtrr_update_action | fix PAT | 10.13+</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>icCB4v//AP+BygAAAQC5dwIAAA==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data>////////D////////////////w==</data>
-				<key>MaxKernel</key>
-				<string>23.99.99</string>
-				<key>MinKernel</key>
-				<string>17.0.0</string>
-				<key>Replace</key>
-				<data>uXcCAAC4BgEHALoGAQcADx9AAA==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Shaneee | _mtrr_update_action | Fix PAT | 10.13+</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>icCB4v//AP+BygAAAQC5dwIAAA==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data>////////D////////////////w==</data>
-				<key>MaxKernel</key>
-				<string>23.99.99</string>
-				<key>MinKernel</key>
-				<string>17.0.0</string>
-				<key>Replace</key>
-				<data>uXcCAAC4BgYGBroGBgYGDzAPCQ==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Visual - _thread_unblock - Remove panic on variant TSC #1 - 12.0</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>SDnGD4fgAgAA</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>21.99.99</string>
-				<key>MinKernel</key>
-				<string>21.0.0</string>
-				<key>Replace</key>
-				<data>SDnGZpBmkGaQ</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Visual - _thread_unblock - Remove panic on variant TSC #1 - 13.0</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>SDnGD4enAgAA</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>23.99.99</string>
-				<key>MinKernel</key>
-				<string>21.0.0</string>
-				<key>Replace</key>
-				<data>SDnGZpBmkGaQ</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Visual - _thread_quantum_expire - Remove panic on variant TSC #2 - 12.0</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>TDn+D4dTAwAA</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>21.99.99</string>
-				<key>MinKernel</key>
-				<string>21.0.0</string>
-				<key>Replace</key>
-				<data>TDn+ZpBmkGaQ</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Visual - _thread_quantum_expire - Remove panic on variant TSC #2 - 13.0</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>TDn+D4ceAwAA</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>23.99.99</string>
-				<key>MinKernel</key>
-				<string>21.0.0</string>
-				<key>Replace</key>
-				<data>TDn+ZpBmkGaQ</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Visual - thread_invoke - Remove panic on variant TSC #3 - 12.0</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>SItwWEw57g+HJAUAAA==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>21.99.99</string>
-				<key>MinKernel</key>
-				<string>21.0.0</string>
-				<key>Replace</key>
-				<data>SItwWEw57maQZpBmkA==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Visual - thread_invoke - Remove panic on variant TSC #3 - 13.0</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>SItwWEw55g+HWQUAAA==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>23.99.99</string>
-				<key>MinKernel</key>
-				<string>21.0.0</string>
-				<key>Replace</key>
-				<data>SItwWEw55maQZpBmkA==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Visual - thread_invoke - Remove panic on variant TSC #4 - 12.0</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>TDurgAQAAA+C8wQAAA==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>21.99.99</string>
-				<key>MinKernel</key>
-				<string>21.0.0</string>
-				<key>Replace</key>
-				<data>TDurgAQAAGaQZpBmkA==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Visual - thread_invoke - Remove panic on variant TSC #4 - 13.0</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>TDujgAQAAA+CKAUAAA==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>23.99.99</string>
-				<key>MinKernel</key>
-				<string>21.0.0</string>
-				<key>Replace</key>
-				<data>TDujgAQAAGaQZpBmkA==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>_thread_dispatch</string>
-				<key>Comment</key>
-				<string>Visual - _thread_dispatch - Remove panic on variant TSC #5 - 12.0/13.0</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>SSufgAQAAA+CXwEAAA==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>23.99.99</string>
-				<key>MinKernel</key>
-				<string>21.0.0</string>
-				<key>Replace</key>
-				<data>SSufgAQAAGaQZpBmkA==</data>
-				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				AAD/AA==
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -2167,21 +2134,29 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>SAAAAAIAAEgAAFgAAAAPAAAAAAA=</data>
+				<data>
+				SAAAAAIAAEgAAFgAAAAPAAAAAAA=
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>/wAAD/////8AAP8AAAD/AAAAAAA=</data>
+				<data>
+				/wAAD/////8AAP8AAAD/AAAAAAA=
+				</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
-				<string>21.00.00</string>
+				<string>21.0.0</string>
 				<key>Replace</key>
-				<data>AAAAAAAAAAAAAAAAAABmkGaQZpA=</data>
+				<data>
+				AAAAAAAAAAAAAAAAAABmkGaQZpA=
+				</data>
 				<key>ReplaceMask</key>
-				<data>AAAAAAAAAAAAAAAAAAD///////8=</data>
+				<data>
+				AAAAAAAAAAAAAAAAAAD///////8=
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -2191,27 +2166,35 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>Visual | thread_invoke, thread_dispatch | Remove non-monotonic time panic | 12.0+</string>
+				<string>Visual | thread_invoke, thread_dispatch | Remove non-monotonic time panic | 12.0-26.3</string>
 				<key>Count</key>
 				<integer>2</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>SAAAgAQAAA8AAAAAAA==</data>
+				<data>
+				SAAAgAQAAA8AAAAAAA==
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>SAAA8P////8AAAAAAA==</data>
+				<data>
+				SAAA8P////8AAAAAAA==
+				</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.3.99</string>
 				<key>MinKernel</key>
-				<string>21.00.00</string>
+				<string>21.0.0</string>
 				<key>Replace</key>
-				<data>AAAAAAAAAGaQZpBmkA==</data>
+				<data>
+				AAAAAAAAAGaQZpBmkA==
+				</data>
 				<key>ReplaceMask</key>
-				<data>AAAAAAAAAP///////w==</data>
+				<data>
+				AAAAAAAAAP///////w==
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -2221,27 +2204,35 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>Algrey / Zormeister | _mtrr_update_action | Fix PAT | 15+</string>
+				<string>laobamac | thread_invoke, thread_dispatch | Remove non-monotonic time panic | 26.4+</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>icCB4v//AP+BygAAAAAPMA==</data>
+				<data>
+				SAAAkAQAAA8AAAAAAA==
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>/////////////wAAAAD//w==</data>
+				<data>
+				SAAA8P////8AAAAAAA==
+				</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
-				<string>24.0.0</string>
+				<string>25.4.0</string>
 				<key>Replace</key>
-				<data>icC4BgEHALoGAQcADzCQkA==</data>
+				<data>
+				AAAAAAAAAGaQZpBmkA==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				AAAAAAAAAP///////w==
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -2251,27 +2242,145 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>Shaneee / Zormeister | _mtrr_update_action | Fix PAT | 15+</string>
+				<string>algrey | _mtrr_update_action | fix PAT | 10.13+</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>icCB4v//AP+BygAAAAAPMA==</data>
+				<data>
+				icCB4v//AP+BygAAAQC5dwIAAA==
+				</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>/////////////wAAAAD//w==</data>
+				<data>
+				////////D////////////////w==
+				</data>
 				<key>MaxKernel</key>
-				<string>24.99.99</string>
+				<string>23.99.99</string>
+				<key>MinKernel</key>
+				<string>17.0.0</string>
+				<key>Replace</key>
+				<data>
+				uXcCAAC4BgEHALoGAQcADx9AAA==
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>Shaneee | _mtrr_update_action | Fix PAT | 10.13+</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				icCB4v//AP+BygAAAQC5dwIAAA==
+				</data>
+				<key>Identifier</key>
+				<string>kernel</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				////////D////////////////w==
+				</data>
+				<key>MaxKernel</key>
+				<string>23.99.99</string>
+				<key>MinKernel</key>
+				<string>17.0.0</string>
+				<key>Replace</key>
+				<data>
+				uXcCAAC4BgYGBroGBgYGDzAPCQ==
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>Algrey / Zormeister | _mtrr_update_action | Fix PAT | 15.0+</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				icCB4v//AP+BygAAAAAPMA==
+				</data>
+				<key>Identifier</key>
+				<string>kernel</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				/////////////wAAAAD//w==
+				</data>
+				<key>MaxKernel</key>
+				<string>25.99.99</string>
 				<key>MinKernel</key>
 				<string>24.0.0</string>
 				<key>Replace</key>
-				<data>icC4BgYGBroGBgYGDzCQkA==</data>
+				<data>
+				icC4BgEHALoGAQcADzCQkA==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>Shaneee / Zormeister | _mtrr_update_action | Fix PAT | 15.0+</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				icCB4v//AP+BygAAAAAPMA==
+				</data>
+				<key>Identifier</key>
+				<string>kernel</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				/////////////wAAAAD//w==
+				</data>
+				<key>MaxKernel</key>
+				<string>25.99.99</string>
+				<key>MinKernel</key>
+				<string>24.0.0</string>
+				<key>Replace</key>
+				<data>
+				icC4BgYGBroGBgYGDzCQkA==
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -2350,7 +2459,7 @@
 			<key>HibernateSkipsPicker</key>
 			<false/>
 			<key>HideAuxiliary</key>
-			<true/>
+			<false/>
 			<key>InstanceIdentifier</key>
 			<string></string>
 			<key>LauncherOption</key>
@@ -2389,7 +2498,7 @@
 			<key>LogModules</key>
 			<string>*</string>
 			<key>SysReport</key>
-			<true/>
+			<false/>
 			<key>Target</key>
 			<integer>7</integer>
 		</dict>
@@ -2414,9 +2523,11 @@
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
-			<data></data>
+			<data>
+			</data>
 			<key>PasswordSalt</key>
-			<data></data>
+			<data>
+			</data>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
@@ -2441,7 +2552,9 @@
 				<key>LineControl</key>
 				<integer>7</integer>
 				<key>PciDeviceInfo</key>
-				<data>/w==</data>
+				<data>
+				/w==
+				</data>
 				<key>RegisterAccessWidth</key>
 				<integer>8</integer>
 				<key>RegisterBase</key>
@@ -2519,16 +2632,20 @@
 				<key>revcpuname</key>
 				<string>AMD Ryzen 7 5800H</string>
 				<key>revpatch</key>
-				<string>cpuname</string>
+				<string>auto,sbvmm</string>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>SystemAudioVolume</key>
-				<data>Rg==</data>
+				<data>
+				Rg==
+				</data>
 				<key>boot-args</key>
-				<string>-v -revbeta revcpu=1 -lilubetaall revpatch=auto,sbvmm -alcbeta -vsmcbeta -ChefKissInternal</string>
+				<string>-v revcpu=1 revpatch=auto,sbvmm debug=0x100 keepsyms=1</string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>bluetoothExternalDongleFailed</key>
@@ -2551,6 +2668,7 @@
 			<array>
 				<string>bluetoothExternalDongleFailed</string>
 				<string>bluetoothInternalControllerInfo</string>
+				<string>boot-args</string>
 			</array>
 		</dict>
 		<key>LegacyOverwrite</key>
@@ -2573,21 +2691,23 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C020196004N00001H</string>
+			<string></string>
 			<key>ProcessorType</key>
 			<integer>3841</integer>
 			<key>ROM</key>
-			<data>v28EW0m5</data>
+			<data>
+			AAAAAAAA
+			</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro16,3</string>
+			<string>MacBookPro16,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02CPVZGP3XY</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>328313EF-1EA4-4DF2-B479-327BCFDF72CC</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -2686,6 +2806,8 @@
 				<false/>
 				<key>Path</key>
 				<string>HfsPlus.efi</string>
+				<key>HideVerbose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -2698,6 +2820,8 @@
 				<false/>
 				<key>Path</key>
 				<string>OpenCanopy.efi</string>
+				<key>HideVerbose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -2710,6 +2834,8 @@
 				<false/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
+				<key>HideVerbose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -2722,6 +2848,8 @@
 				<false/>
 				<key>Path</key>
 				<string>ResetNvramEntry.efi</string>
+				<key>HideVerbose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -2734,6 +2862,8 @@
 				<false/>
 				<key>Path</key>
 				<string>ToggleSipEntry.efi</string>
+				<key>HideVerbose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>Input</key>
@@ -2871,6 +3001,8 @@
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
+		<array/>
+		<key>Unload</key>
 		<array/>
 	</dict>
 </dict>

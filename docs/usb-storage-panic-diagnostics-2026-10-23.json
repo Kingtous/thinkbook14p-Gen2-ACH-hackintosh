@@ -1,0 +1,10 @@
+{
+  "reported_install_target": "SSK 1TB USB SSD",
+  "bridge": "152D:A583 UAS (Windows enumerated)",
+  "screenshot": "IOStorageFamily / IOSCSIArchitectureModelFamily / IOUSBHostFamily / IOUSBMassStorageDriver; launchd; Darwin 25.6.0",
+  "panic_reason": "Double fault, supplied preceding video frame",
+  "change": "debug=0x100 keepsyms=1 only; no driver or USB mapping changes",
+  "next": "capture first panic(cpu...) line; test direct USB port without hub",
+  "final_archive_sha256": "b391f10005dab8e9e29c21418b38ab355b854ff48b21c80c7f0029db7d240c3a",
+  "root_cause": "not established; preparing baseline NootedRed user shared-cache hook comparison"
+}

@@ -1,0 +1,23 @@
+{
+  "source": "https://github.com/AMD-OSX/AMD_Vanilla/pull/215",
+  "source_commit": "a174cca80efe2377fde3b902666c70863ea66454",
+  "recovery_build": "25G83",
+  "darwin": "25.6.0",
+  "kernel_collection_sha256": "c80161fa3065883753fc285339281361a8469cbb6fb27653c88e2a22eb4807a4",
+  "patch_count": 2,
+  "selected_matches": [
+    {
+      "file_offset": "0x18ed52",
+      "before": "4d3ba6900400000f82c8040000",
+      "after": "4d3ba690040000669066906690",
+      "old_patch_matches": false
+    },
+    {
+      "file_offset": "0x18fcda",
+      "before": "4c2bbb900400000f8250020000",
+      "after": "4c2bbb90040000669066906690",
+      "old_patch_matches": false
+    }
+  ],
+  "verification": "Offline mask/replacement verification against actual recovery KC; boot test pending"
+}

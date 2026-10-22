@@ -61,30 +61,30 @@
 				<key>WiFi_1</key>
 				<dict>
 					<key>password</key>
-					<string>zxyssdt112233</string>
+					<string></string>
 					<key>ssid</key>
-					<string>ssdt</string>
+					<string></string>
 				</dict>
 				<key>WiFi_2</key>
 				<dict>
 					<key>password</key>
-					<string>zxyssdt112233</string>
+					<string></string>
 					<key>ssid</key>
-					<string>ssdt_5G</string>
+					<string></string>
 				</dict>
 				<key>WiFi_3</key>
 				<dict>
 					<key>password</key>
 					<string></string>
 					<key>ssid</key>
-					<string>Redmi</string>
+					<string></string>
 				</dict>
 				<key>WiFi_4</key>
 				<dict>
 					<key>password</key>
-					<string>9utc5c5f</string>
+					<string></string>
 					<key>ssid</key>
-					<string>CMCC-KtG6</string>
+					<string></string>
 				</dict>
 			</dict>
 		</dict>

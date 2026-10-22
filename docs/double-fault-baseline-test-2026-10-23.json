@@ -1,0 +1,11 @@
+{
+  "panic": "Double fault during launchd dyld shared cache mapping",
+  "root_cause": "Unconfirmed; USB storage appears in backtrace but is not established as the culprit",
+  "active_usb_profile": "baseline",
+  "change": "Removed -NRedDisplayFix and -NRedVideoFix only; NootedRed remains enabled",
+  "diagnostics": "debug=0x100 keepsyms=1",
+  "unchanged": "USB mapping, storage drivers, SSK drive data, TSC fixes, SMBIOS",
+  "boot_test": "pending",
+  "archive": "ThinkBook14p-Tahoe-Baseline-Diagnostic-EFI.zip",
+  "sha256": "b5d6b156331bda35d97406db6e8abd9e7eaeddcfd26c712166a028273a9024f3"
+}

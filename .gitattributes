@@ -1,0 +1,6 @@
+*.plist text eol=lf
+*.dsl text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.aml binary
+*.efi binary

@@ -1,0 +1,42 @@
+[
+  {
+    "archive": "ThinkBook14p-Tahoe-2026-10-23-experimental.zip",
+    "sha256": "2fecf1fba4640e05dee2db820ba5639971fc103ba6f85be9a725a180bbf6cd30",
+    "bytes": 49777550,
+    "smbios": "MacBookPro16,2",
+    "tsc_revision": "PR215 Darwin 25.4+"
+  },
+  {
+    "archive": "ThinkBook14p-Tahoe-2026-10-23-installer.zip",
+    "sha256": "7e139eb6d1cd482853e522f8498c305da84ab5e4f0931fb5b421c1126d78b308",
+    "bytes": 49777540,
+    "smbios": "MacBookPro16,2",
+    "tsc_revision": "PR215 Darwin 25.4+"
+  },
+  {
+    "archive": "ThinkBook14p-Tahoe-2026-10-23-no-vcn-itlwm.zip",
+    "sha256": "f17653a7be8d484d7cde24e8c66e1733f37fdd60c63b88e7bd5796e2e2408741",
+    "bytes": 34680011,
+    "smbios": "MacBookPro16,2",
+    "tsc_revision": "PR215 Darwin 25.4+"
+  },
+  {
+    "archive": "ThinkBook14p-Tahoe-2026-10-23-no-vcn.zip",
+    "sha256": "38f15a6d8fca51da8a33ee12893a0ea2a323b96f2cdfc02beda059e36de6d2b0",
+    "bytes": 49777542,
+    "smbios": "MacBookPro16,2",
+    "tsc_revision": "PR215 Darwin 25.4+"
+  },
+  {
+    "archive": "Tahoe-Final/ThinkBook14p-Tahoe-Final-EFI.zip",
+    "sha256": "1decde09cee308bde0e411f3f5cb929d592f85c6d48097e4daa24846a2d22027",
+    "bytes": 51390646,
+    "profile": "baseline + SimpleHDA 1.0.0 (audio acceptance pending)"
+  },
+  {
+    "archive": "Tahoe-Final/ThinkBook14p-Tahoe-Baseline-Audio-EFI.zip",
+    "sha256": "1decde09cee308bde0e411f3f5cb929d592f85c6d48097e4daa24846a2d22027",
+    "bytes": 51390646,
+    "profile": "baseline + SimpleHDA 1.0.0 (audio acceptance pending)"
+  }
+]

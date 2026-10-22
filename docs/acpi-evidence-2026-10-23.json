@@ -1,0 +1,27 @@
+{
+  "bios": "GWCN47WW",
+  "firmware_dsdt_sha256": "0f953333fe662bda26a58012075f1e924d0bd9a0fa0681ef78578bd2c6512a83",
+  "injected_dsdt_sha256": "4785d978fb8bb34f25dcdaf5ecfaf2d1744557674fd87d137639ecb8bdee0afa",
+  "firmware_ssdt_count": 15,
+  "resource_buffer_hex": "470162006200000147016600660000018c2000010001001300010000000017000019002300000016005c5f53422e4750494f007900",
+  "isolated_method_evaluation": {
+    "before": [
+      "Firmware Error (ACPI): Could not resolve symbol [\\_SB.PCI0.LPC0.H_EC.VPC0.MCPF.ALIB], AE_NOT_FOUND (20260408/psargs-525)",
+      "ACPI Error: Aborting method \\_SB.PCI0.LPC0.H_EC.VPC0.MCPF due to previous error (AE_NOT_FOUND) (20260408/psparse-689)",
+      "ACPI Error: Aborting method \\_SB.PCI0.LPC0.H_EC.VPC0.THMC due to previous error (AE_NOT_FOUND) (20260408/psparse-689)",
+      "ACPI Error: Aborting method \\_SB.PCI0.LPC0.H_EC._REG due to previous error (AE_NOT_FOUND) (20260408/psparse-689)",
+      "Evaluating \\_SB.PCI0.LPC0.H_EC._CRS",
+      "Evaluation of \\_SB.PCI0.LPC0.H_EC._CRS failed with status AE_NOT_FOUND"
+    ],
+    "after": [
+      "Firmware Error (ACPI): Could not resolve symbol [\\_SB.PCI0.LPC0.H_EC.VPC0.MCPF.ALIB], AE_NOT_FOUND (20260408/psargs-525)",
+      "ACPI Error: Aborting method \\_SB.PCI0.LPC0.H_EC.VPC0.MCPF due to previous error (AE_NOT_FOUND) (20260408/psparse-689)",
+      "ACPI Error: Aborting method \\_SB.PCI0.LPC0.H_EC.VPC0.THMC due to previous error (AE_NOT_FOUND) (20260408/psparse-689)",
+      "ACPI Error: Aborting method \\_SB.PCI0.LPC0.H_EC._REG due to previous error (AE_NOT_FOUND) (20260408/psparse-689)",
+      "Evaluating \\_SB.PCI0.LPC0.H_EC._CRS",
+      "Evaluation of \\_SB.PCI0.LPC0.H_EC._CRS returned object 0313A430, external buffer length 50",
+      "  [Buffer] Length 35 = "
+    ]
+  },
+  "scope": "ACPICA simulated evaluation, no physical EC I/O or macOS boot tested"
+}
