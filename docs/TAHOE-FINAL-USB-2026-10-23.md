@@ -6,16 +6,18 @@
 
 这里的 baseline 是可进桌面的排障基线，关闭 fork 的两个功能开关不是最终修复，也不能据此宣布硬件视频加速已可用。
 
+最新实机反馈：仅开启 `-NRedDisplayFix` 没有问题，已提升为仓库及打包工具默认配置。此反馈确认单开配置可启动，尚不单独证明 Edge 首开冻结已消失或硬件视频编解码可用。
+
 ## fork 功能恢复测试
 
 使用的是 steve12311/NootedRed v0.9.0-pre-release.6（128b980），不是上游原版构建。[该版本说明](https://github.com/steve12311/NootedRed/releases/tag/v0.9.0-pre-release.6) 明确区分渲染修正与实验 VCN 功能，两个开关可独立启用；本机 1002:1638 在实验 VCN 2.2 列表内。入表不等于本机已完成验收。
 
-下一步保持系统、kext、SMBIOS 及 coremedia 设置相同，只比较以下参数。此前只验证了双开失败、双关能进桌面，尚不能归因到其中某一个功能，更不能证明永久关闭是正确解决方案。
+下一步保持系统、kext、SMBIOS 及 coremedia 设置相同，只比较以下参数。目前已验证双开失败、双关能进桌面、单开 DisplayFix 没有问题；VideoFix 单开尚未验证，仍不能确定双开失败的具体原因，更不能证明永久关闭是正确解决方案。
 
 | 打包 profile | 额外参数 | 用途 |
 |---|---|---|
 | baseline | 无 | 已确认能进桌面的回退基线 |
-| display-only | -NRedDisplayFix | 优先比较 Edge 首开、窗口与菜单渲染 |
+| display-only | -NRedDisplayFix | 默认；用户确认单开没有问题，继续观察 Edge 与渲染 |
 | video-only | -NRedVideoFix | 单独检查 VCN 与启动稳定性 |
 | experimental | 两者同时启用 | 单项通过后再测组合 |
 
@@ -23,9 +25,9 @@
 
 公开仓库的 PlatformInfo/Generic 身份字段已清空；本机工作目录和 U 盘保留原身份，未上传带序列号的截图。下文 ZIP 与安装包均为本地交付物，不是 GitHub Release。
 
-当前 E:/EFI 是 baseline + SimpleHDA 1.0.0 的音频测试配置：
+当前 E:/EFI 是 display-only + SimpleHDA 1.0.0 的配置：
 - MacBookPro16,2、8 核 AMD 补丁和 Darwin 25.4+ TSC 修补保留。
-- NootedRed 本体启用；-NRedDisplayFix / -NRedVideoFix 保持关闭。此前两者同时启用时发生 Double fault，关闭后能进桌面，具体触发者尚未逐一确认。
+- NootedRed 本体及 -NRedDisplayFix 启用；-NRedVideoFix 关闭。单开 DisplayFix 已经用户验证，VideoFix 单项测试及此前 Double fault 的根因尚未确认。
 - Lilu → AppleALC → SimpleHDA 加载，保留原 layout-id 11，SimpleHDA 仅在 Darwin 25.x 启用。
 - 不改 SIP 或系统卷；可选 HAL 安装包仅存放在工具目录，尚未安装。
 - 音频候选已做 ocvalidate、依赖和文件回读检查，实际扬声器/耳机口/麦克风待测试。
@@ -74,7 +76,7 @@ NootedRed 维护者在 issue 235 / discussion 430 给出 Sonoma+ 的 Metal trans
 
 ## 本地交付
 
-- ThinkBook14p-Tahoe-Final-EFI.zip / ThinkBook14p-Tahoe-Baseline-Audio-EFI.zip：当前 baseline + 音频测试版。
+- ThinkBook14p-Tahoe-Final-EFI.zip / ThinkBook14p-Tahoe-Baseline-Audio-EFI.zip：此前 baseline + 音频测试版（不包含最新默认 DisplayFix 改动）；新配置请使用打包工具生成 display-only 包。
 - EFI/：相同配置的解压目录。
 - InstallAssistant-macOS-Tahoe-26.7.1-25G241.pkg：已下载的 Apple 完整安装包，约 17.1 GiB，已校验 XAR TOC 与全部 1753 个完整性数据块。
 - com.apple.recovery.boot/：已核验的 Tahoe 26.6.2（25G83）联网恢复镜像；完整 pkg 与它是不同交付物。pkg 本身不能直接从 Ventoy 启动。

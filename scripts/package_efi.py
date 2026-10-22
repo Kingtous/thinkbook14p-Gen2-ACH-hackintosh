@@ -11,7 +11,7 @@ from validate_efi import validate
 
 root = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
-parser.add_argument('--profile', choices=['experimental', 'display-only', 'video-only', 'no-vcn', 'baseline', 'installer'], default='baseline')
+parser.add_argument('--profile', choices=['experimental', 'display-only', 'video-only', 'no-vcn', 'baseline', 'installer'], default='display-only')
 parser.add_argument('--wifi', choices=['airport', 'itlwm'], default='airport')
 args = parser.parse_args()
 suffix = '' if args.wifi == 'airport' else '-itlwm'

@@ -2641,7 +2641,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v revcpu=1 revpatch=auto,sbvmm debug=0x100 keepsyms=1</string>
+				<string>-v revcpu=1 revpatch=auto,sbvmm debug=0x100 keepsyms=1 -NRedDisplayFix</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
