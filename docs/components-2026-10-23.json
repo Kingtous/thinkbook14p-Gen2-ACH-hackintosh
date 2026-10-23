@@ -114,7 +114,7 @@
     "wifi": "Intel AX200 8086:2723",
     "smbios": "MacBookPro16,2"
   },
-  "validation": "User reports baseline installed system reaches desktop; periodic stutter persists. SimpleHDA added, audio acceptance pending.",
+  "validation": "User confirms the custom NootedRed Release works with both DisplayFix and VideoFix; codec-specific and long-duration acceptance remain separate.",
   "platform_identity": "Matching serial/MLB generated with OpenCore macserial; original UUID/ROM preserved",
   "additional_kernel_patches": [
     {
@@ -123,5 +123,16 @@
       "scope": "TSC thread time fix only; PCI change not imported",
       "evidence": "tsc-patch-25G83-evidence.json"
     }
-  ]
+  ],
+  "active_nootedred_build": {
+    "repo": "Kingtous/NootedRed",
+    "commit": "0f1a6b3f4265e91d5ed9e04e8acf2c95336dad73",
+    "workflow": "https://github.com/Kingtous/NootedRed/actions/runs/39979133573",
+    "upstream_pr": "https://github.com/steve12311/NootedRed/pull/4",
+    "upstream_patch_commit": "5ef479ae90931fd1445d0feba0b2748e77e8075d",
+    "archive_sha256": "8c2fbb3b477503f43c3bc73fe8bcaa3f1e4f47258a234ba08c9bfed64760a132",
+    "binary_sha256": "44feb7bdaa8aef4c49101b97c55574335a6983377132f1c16262da5e3ab8f0f0",
+    "profile": "dual",
+    "validation": "User-reported success on the target ThinkBook; historical downloads list includes the superseded original release."
+  }
 }

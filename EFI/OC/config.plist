@@ -2422,7 +2422,7 @@
 			<key>LegacyCommpage</key>
 			<false/>
 			<key>PanicNoKextDump</key>
-			<true/>
+			<false/>
 			<key>PowerTimeoutKernelPanic</key>
 			<true/>
 			<key>ProvideCurrentCpuInfo</key>
@@ -2500,7 +2500,7 @@
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>7</integer>
+			<integer>67</integer>
 		</dict>
 		<key>Entries</key>
 		<array/>
@@ -2641,7 +2641,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v revcpu=1 revpatch=auto,sbvmm debug=0x100 keepsyms=1 -NRedDisplayFix</string>
+				<string>-v revcpu=1 revpatch=auto,sbvmm debug=0x100 keepsyms=1 msgbuf=1048576 -NRedDisplayFix -NRedVideoFix</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==

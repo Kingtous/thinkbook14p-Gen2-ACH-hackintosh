@@ -29,9 +29,9 @@
   },
   {
     "archive": "Tahoe-Final/ThinkBook14p-Tahoe-Final-EFI.zip",
-    "sha256": "1decde09cee308bde0e411f3f5cb929d592f85c6d48097e4daa24846a2d22027",
-    "bytes": 51390646,
-    "profile": "baseline + SimpleHDA 1.0.0 (audio acceptance pending)"
+    "sha256": "5fecf2ffb86eba033f42055385557ff17d1fd3542690e8aa05f382ee81e28cf1",
+    "bytes": 51372387,
+    "profile": "dual; custom NootedRed 0f1a6b3; user-reported success"
   },
   {
     "archive": "Tahoe-Final/ThinkBook14p-Tahoe-Baseline-Audio-EFI.zip",

@@ -1,5 +1,17 @@
 # ThinkBook 14p / Tahoe 当前 U 盘说明（2026-10-23）
 
+## 最新状态：修复构建双开已通过本机测试
+
+当前使用 [Kingtous/NootedRed 0f1a6b3 的 Release](https://github.com/Kingtous/NootedRed/actions/runs/39979133573)，同时开启 `-NRedDisplayFix -NRedVideoFix`。两个共享缓存 hook 的原生调用与补丁处理已分离，显示补丁的大型临时数据已移到堆上。用户替换后反馈“完全可用了”。修复前的单开成功、双开失败记录保留为历史，不能再当作当前配置。
+
+[上游 PR #4](https://github.com/steve12311/NootedRed/pull/4) 已提交，尚未合并。三个构建版本、Clang 静态分析和相关回归测试通过。两个入口 wrapper 的 Release 局部栈预留均为 24 字节，不含保存寄存器及后续调用。栈耗尽尚非完全证明的根因：本构建还包含 pre-release.6 之后的上游改动，未实测未修改的 27e75c8 双开基线。
+
+默认打包 profile 改为 `dual`；`experimental` 是同一双开参数的兼容别名，display-only、video-only、baseline 保留供对照。`python scripts/package_efi.py` 会生成双开包。dist/ 仅保存在本地，在本机工作目录打包会保留本机身份，不应直接公开上传。
+
+本次在 U 盘部署前的备份为 `Tahoe-Tools/backups/before-stack-fix-dual-20261023-233922/`，包含原 kext 和 VideoFix 单开配置。保留诊断参数、OpenCore 文件日志和完整 kext dump；没有改动其他驱动。以下内容为诊断与旧交付记录；具体音视频路径、睡眠唤醒和长时间稳定性仍需独立验收。
+
+## 历史诊断与交付记录
+
 ## 当前进度与配置
 
 已完成安装，用户确认 baseline 配置能完成欢迎流程并进入桌面。最新反馈整体卡顿明显减轻，Edge 首次启动仍冻结约 10–20 秒。截图确认 Tahoe 26.7.1、Renoir 显卡与 4 GB 显存；音频是否恢复尚待确认。

@@ -11,7 +11,7 @@ from validate_efi import validate
 
 root = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
-parser.add_argument('--profile', choices=['experimental', 'display-only', 'video-only', 'no-vcn', 'baseline', 'installer'], default='display-only')
+parser.add_argument('--profile', choices=['dual', 'experimental', 'display-only', 'video-only', 'no-vcn', 'baseline', 'installer'], default='dual')
 parser.add_argument('--wifi', choices=['airport', 'itlwm'], default='airport')
 args = parser.parse_args()
 suffix = '' if args.wifi == 'airport' else '-itlwm'
@@ -51,9 +51,9 @@ with tempfile.TemporaryDirectory(prefix='thinkbook-efi-') as temporary:
     guid = '7C436110-AB2A-4BBB-A880-FE41995C9F82'
     boot = [b for b in config['NVRAM']['Add'][guid]['boot-args'].split()
             if b not in ('-NRedDisplayFix', '-NRedVideoFix', '-NRedOff')]
-    if args.profile in ('experimental', 'display-only', 'no-vcn'):
+    if args.profile in ('dual', 'experimental', 'display-only', 'no-vcn'):
         boot += ['-NRedDisplayFix']
-    if args.profile in ('experimental', 'video-only'):
+    if args.profile in ('dual', 'experimental', 'video-only'):
         boot += ['-NRedVideoFix']
     if args.profile == 'installer':
         boot += ['-NRedOff']
